@@ -19,8 +19,8 @@ The software has four components that users need to complete before generating a
 The manual attack prompt construction process includes the following steps:
 
 - Users can either utilize the default attack prompt template or modify it to suit their requirements.
-- Upon clicking the ``Generate Attack Prompt'' button, users can preview the newly created attack prompt and the corresponding survey questions imbued with the attack prompt.
-- By pressing the ``Evaluate Attack Prompt'' button, users can assess the effectiveness of the injection across various evaluation LLMs and rounds, as per their needs.
+- Upon clicking the "Generate Attack Prompt" button, users can preview the newly created attack prompt and the corresponding survey questions imbued with the attack prompt.
+- By pressing the "Evaluate Attack Prompt" button, users can assess the effectiveness of the injection across various evaluation LLMs and rounds, as per their needs.
 - Additionally, users can retrieve detailed evaluation information by selecting the accordion button at the bottom, which provides specifics about the corresponding LLM's information, including the LLM data, response time, and response message, among other details.
 
 ![Software interface of automated attack prompt construction](./figure/Picture3.png)
@@ -33,4 +33,4 @@ The process for automated attack prompt construction consists of the following c
 
 3. **Evaluation Section:** This aligns with the manual attack prompt construction process. Users select the LLM to evaluate prompt injection effectiveness and decide on the number of evaluation rounds.
 
-Upon clicking the ``Generate Attack Prompt'' button, a summary table displaying the evaluation results for each automated constructed attack prompt and its corresponding prompt injection effectiveness will appear. Detailed construction history and evaluation information can be accessed by expanding the corresponding accordion buttons.
+Upon clicking the "Generate Attack Prompt" button, a summary table displaying the evaluation results for each automated constructed attack prompt and its corresponding prompt injection effectiveness will appear. Detailed construction history and evaluation information can be accessed by expanding the corresponding accordion buttons.
