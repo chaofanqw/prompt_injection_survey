@@ -1,6 +1,21 @@
 # Software
 
-To streamline the attack prompt construction and evaluation process, we developed a software tool using the [Gradio library](https://gradio.app/). This software incorporates two primary features, namely, manual and automated attack prompt construction. Here, we describe the software's main interface, using the example detailed in the 'Algorithm Example' section of this document.
+To streamline the attack prompt construction and evaluation process, we developed a software tool using the [Gradio library](https://gradio.app/). This software incorporates two primary features, namely, manual and automated attack prompt construction. 
+
+## Installation
+To install the software, run the following command:
+```
+pip install -r requirements.txt
+```
+
+## Usage
+To run the software, execute the following command:
+```
+python web.py
+```
+
+## Interface Explanation
+Here, we describe the software's main interface.
 
 ![Software interface of prep steps for generating an attack](./figure/Picture1.png)
 
@@ -18,10 +33,10 @@ The software has four components that users need to complete before generating a
 
 The manual attack prompt construction process includes the following steps:
 
-- Users can either utilize the default attack prompt template or modify it to suit their requirements.
-- Upon clicking the "Generate Attack Prompt" button, users can preview the newly created attack prompt and the corresponding survey questions imbued with the attack prompt.
-- By pressing the "Evaluate Attack Prompt" button, users can assess the effectiveness of the injection across various evaluation LLMs and rounds, as per their needs.
-- Additionally, users can retrieve detailed evaluation information by selecting the accordion button at the bottom, which provides specifics about the corresponding LLM's information, including the LLM data, response time, and response message, among other details.
+1. Users can either utilize the default attack prompt template or modify it to suit their requirements.
+2. Upon clicking the "Generate Attack Prompt" button, users can preview the newly created attack prompt and the corresponding survey questions imbued with the attack prompt.
+3. By pressing the "Evaluate Attack Prompt" button, users can assess the effectiveness of the injection across various evaluation LLMs and rounds, as per their needs.
+4. Additionally, users can retrieve detailed evaluation information by selecting the accordion button at the bottom, which provides specifics about the corresponding LLM's information, including the LLM data, response time, and response message, among other details.
 
 ![Software interface of automated attack prompt construction](./figure/Picture3.png)
 
